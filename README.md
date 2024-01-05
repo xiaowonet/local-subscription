@@ -1,5 +1,5 @@
 # local-subscription
-gkd本地订阅规则
+gkd本地订阅规则  
 1、本仓库中的规则，仅仅作为[gkd默认订阅规则](https://github.com/gkd-kit/subscription)的补充，而不是替代；  
 2、感谢[gkd项目](https://github.com/gkd-kit/gkd)，及其[开发者](https://github.com/gkd-kit/gkd/graphs/contributors)。
 
