@@ -1,6 +1,6 @@
 # local-subscription
 gkd本地订阅规则
-1、本仓库中的规则，仅仅作为[gkd默认订阅规则](https://github.com/gkd-kit/subscription)的补充，而不是替代；
+1、本仓库中的规则，仅仅作为[gkd默认订阅规则](https://github.com/gkd-kit/subscription)的补充，而不是替代；  
 2、感谢[gkd项目](https://github.com/gkd-kit/gkd)，及其[开发者](https://github.com/gkd-kit/gkd/graphs/contributors)。
 
 [./globalGroups.ts](./globalGroups.ts)  --  全局规则黑名单版，仅名单中的APP生效  
