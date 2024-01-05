@@ -137,11 +137,36 @@
       quickFind: true,
       key: 0,
       matches: [
-        '[text*="跳过"][text.length<10][visibleToUser=true]'
+        '[text*="跳过"][text.length<6][visibleToUser=true]'
+      ]
+    },
+    {
+      quickFind: true,
+      key: 1,
+      actionMaximumKey: 0,
+      matches: [
+        '[text*="skip"][text.length<10][visibleToUser=true]'
+      ]
+    },
+    {
+      quickFind: true,
+      key: 2,
+      actionMaximumKey: 0,
+      matches: [
+        '[text*="Skip"][text.length<10][visibleToUser=true]'
+      ]
+    },
+    {
+      quickFind: true,
+      key: 3,
+      actionMaximumKey: 0,
+      matches: [
+        '[text*="跳過"][text.length<6][visibleToUser=true]'
       ]
     },
     {
       key: -1,
+      actionMaximumKey: 0,
       matches: [
         '[childCount=0][visibleToUser=true][(text.length<10&&(text*="跳过"||text*="跳過"||text*="skip"||text*="Skip")) || id$="tt_splash_skip_btn" || vid*="skip" || vid*="Skip" || (vid*="count" && vid*="down"&& vid!*="download") || desc*="跳过" || desc*="skip"]'
       ]
