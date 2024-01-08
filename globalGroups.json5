@@ -144,28 +144,17 @@
       ]
     },
     {
-      quickFind: true,
       key: 1,
+      name: '摇一摇广告',
       actionMaximumKey: 0,
       matches: [
-        '[text*="skip"][text.length<10][visibleToUser=true]'
-      ]
-    },
-    {
-      quickFind: true,
-      key: 2,
-      actionMaximumKey: 0,
-      matches: [
-        '[text*="Skip"][text.length<10][visibleToUser=true]'
-      ]
-    },
-    {
-      quickFind: true,
-      key: 3,
-      actionMaximumKey: 0,
-      matches: [
-        '[text*="跳過"][text.length<6][visibleToUser=true]'
-      ]
+        'TextView[text^="扭动手机"]',
+        '@View[clickable=true] + TextView[clickable=true]',
+      ],
+      snapshotUrls: [
+        'https://i.gkd.li/import/13543510',
+        'https://i.gkd.li/import/13856088',
+      ],
     },
     {
       key: -1,
