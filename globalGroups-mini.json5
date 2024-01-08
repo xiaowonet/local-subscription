@@ -144,6 +144,19 @@
       ]
     },
     {
+      key: 1,
+      name: '摇一摇广告',
+      actionMaximumKey: 0,
+      matches: [
+        'TextView[text^="扭动手机"]',
+        '@View[clickable=true] + TextView[clickable=true]',
+      ],
+      snapshotUrls: [
+        'https://i.gkd.li/import/13543510',
+        'https://i.gkd.li/import/13856088',
+      ],
+    },
+    {
       key: -1,
       actionMaximumKey: 0,
       matches: [
