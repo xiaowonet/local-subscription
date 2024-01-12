@@ -132,6 +132,9 @@
     }
     {
       id: 'com.oppo.store', //OPPO 商城
+    },
+    {
+      id: 'com.netease.mail', //网易邮箱大师
     }
   ],
   matchAnyApp: false,
