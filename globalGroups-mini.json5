@@ -135,7 +135,10 @@
     },
     {
       id: 'com.netease.mail', //网易邮箱大师
-      activityIds: 'com.netease.mail.biz.main.MainITabActivity',
+      activityIds: [
+        'com.netease.mail.biz.main.MainITabActivity',
+        'com.netease.mail.ad.launch.ui.SplashAdActivity',
+      ],
     },
     {
       id: 'com.wandafilm.app', //万达电影
