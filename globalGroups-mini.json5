@@ -135,7 +135,7 @@
     },
     {
       id: 'com.netease.mail', //网易邮箱大师
-      activityIds: [
+      excludeActivityIds: [
         'com.netease.mail.biz.main.MainITabActivity',
         'com.netease.mail.ad.launch.ui.SplashAdActivity',
       ],
