@@ -2,7 +2,7 @@
   name: '开屏广告',
   key: 0,
   matchTime: 10000,
-  actionMaximum: 1,
+  actionMaximum: 2,
   resetMatch: 'app',
   actionCdKey: 0,
   actionMaximumKey: 0,
@@ -135,6 +135,7 @@
     },
     {
       id: 'com.netease.mail', //网易邮箱大师
+      activityIds: 'com.netease.mail.biz.main.MainITabActivity',
     },
     {
       id: 'com.wandafilm.app', //万达电影
