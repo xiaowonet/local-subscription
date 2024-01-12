@@ -135,6 +135,9 @@
     },
     {
       id: 'com.netease.mail', //网易邮箱大师
+    },
+    {
+      id: 'com.wandafilm.app', //万达电影
     }
   ],
   matchAnyApp: false,
@@ -161,7 +164,6 @@
     },
     {
       key: -1,
-      actionMaximumKey: 0,
       matches: [
         '[childCount=0][visibleToUser=true][(text.length<10&&(text*="跳过"||text*="跳過"||text*="skip"||text*="Skip")) || id$="tt_splash_skip_btn" || vid*="skip" || vid*="Skip" || (vid*="count" && vid*="down"&& vid!*="download") || desc*="跳过" || desc*="skip"]'
       ]
