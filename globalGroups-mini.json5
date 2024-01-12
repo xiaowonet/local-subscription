@@ -138,8 +138,8 @@
       activityIds: [
         'com.netease.mail.biz.main.MainITabActivity',
         'com.netease.mail.ad.launch.ui.SplashAdActivity',
-      actionMaximum: 2,
       ],
+      actionMaximum: 2,
     },
     {
       id: 'com.wandafilm.app', //万达电影
