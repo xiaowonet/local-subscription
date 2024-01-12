@@ -2,7 +2,7 @@
   name: '开屏广告',
   key: 0,
   matchTime: 10000,
-  actionMaximum: 2,
+  actionMaximum: 1,
   resetMatch: 'app',
   actionCdKey: 0,
   actionMaximumKey: 0,
@@ -138,6 +138,7 @@
       activityIds: [
         'com.netease.mail.biz.main.MainITabActivity',
         'com.netease.mail.ad.launch.ui.SplashAdActivity',
+      actionMaximum: 2,
       ],
     },
     {
